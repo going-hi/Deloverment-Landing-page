@@ -104,3 +104,14 @@ function fetchFb(request) {
         }
     })
 }
+
+
+
+document.querySelectorAll('a').forEach(el => {
+    el.addEventListener('click', event =>  {
+        event.preventDefault()
+    })
+})
+
+
+

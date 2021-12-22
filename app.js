@@ -27,6 +27,7 @@ burgerNav.addEventListener('click', event => {
     if(event.target.dataset.href){
         const href = event.target.dataset.href
         document.querySelector(`[data-section = '${href}']`).scrollIntoView({behavior: "smooth"})
+        burgerBtn.classList.remove('active')
     }
 })
 

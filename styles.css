@@ -90,7 +90,7 @@ h1,h2,h3,h4,h5,h6 {
 .intro {
     padding: 150px 0;
     width: 100%;
-    background: url("/img/intro.jpg") no-repeat center;
+    background: url("./img/intro.jpg") no-repeat center;
     background-size: cover;
     
     position: relative;
@@ -309,7 +309,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .section--contact {
-    background: url("/img/contact/contact.png") no-repeat center;
+    background: url("./img/contact/contact.png") no-repeat center;
     background-size: cover;
     padding-bottom: 80px;
 }
@@ -899,6 +899,7 @@ h1,h2,h3,h4,h5,h6 {
 
     position: fixed;
     top: 0;
+    bottom:0;
     right: -100%;
     
     width: 320px;
